@@ -47,7 +47,9 @@ In case you do not find any celebrity it will be printed
 The necessary data to find the celebrity are in the file celebrity.txt; The basic structure of the file is as follows:
 
   001
+  
   001
+  
   000
 
 each row of this file represents 1 if the person is known and 0 if it is not. For the previous example the celebrity is the third row (id 2 taking into account that starts from 0) since he does not know anyone (all entries are 0) and everyone knows him.
@@ -65,17 +67,25 @@ To launch the application's tests, run:
 2. If there are two or more celebrities, the application will return the id of the first one it found; for this case it will return id 2:
 
 	0010
+	
 	0010
+	
 	0000
+	
 	0000
 
 3. The application looks for the person who does not know anyone; once you find it, the processing ends; for the following case:
 
 	001000
+	
 	001000
+	
 	000000
+	
 	000000
+	
 	001000
+	
 	001000
 
 only process up to id 2 (third row), the rest of the rows are not processed.
