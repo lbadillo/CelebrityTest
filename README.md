@@ -28,7 +28,7 @@ Run the following command to build the project:
 This command will generate a new .jar file inside the target folder
 
 ## Run application
-After build the project is necessary create a new text file called celebrity.txt (see change input data section).
+After build the project is necessary create a new text file called `celebrity.txt` (see change input data section).
 
 To ensure everything worked, run:
 
@@ -38,6 +38,7 @@ With this command the application will be executed with the default example that
 When a celebrity is found executing the application, the following text will be printed on the screen:
 
 `The Celebrity ID is 2`
+where 2 is the ID of the celebrity.
 
 In case you do not find any celebrity it will be printed
 
@@ -45,7 +46,7 @@ In case you do not find any celebrity it will be printed
 
 ### Copy jar
 
-It is possible to copy the .jar file to another folder and run the application. For this it is necessary to copy or create a new file celebrity.txt and leave it in the same folder as the .jar. To execute the application you must execute:
+It is possible to copy the .jar file to another folder and run the application. For this it is necessary to copy or create a new  `celebrity.txt file and leave it in the same folder as the .jar. To execute the application you must execute:
 
     java -jar basicttest-1.0-SNAPSHOT-shaded.jar
 
