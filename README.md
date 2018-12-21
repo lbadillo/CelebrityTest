@@ -32,7 +32,7 @@ After build the project is necessary create a new text file called celebrity.txt
 
 To ensure everything worked, run:
 
-    java -jar target/basicttest-1.0-SNAPSHOT.jar
+    java -jar target/basicttest-1.0-SNAPSHOT-shaded.jar
 
 With this command the application will be executed with the default example that the project brings. In other words, it will take the data from the celebrity.txt file located at the root of the project.  If this file is not present at the same level of the jar file the execute will fail.
 When a celebrity is found executing the application, the following text will be printed on the screen:
@@ -42,6 +42,12 @@ When a celebrity is found executing the application, the following text will be 
 In case you do not find any celebrity it will be printed
 
 `No Celebrity ID was found in the file`
+
+### Copy jar
+
+It is possible to copy the .jar file to another folder and run the application. For this it is necessary to copy or create a new file celebrity.txt and leave it in the same folder as the .jar. To execute the application you must execute:
+
+    java -jar basicttest-1.0-SNAPSHOT-shaded.jar
 
 ### Change input data
 
